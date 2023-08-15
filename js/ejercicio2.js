@@ -1,8 +1,5 @@
-const frase = prompt("Ingresa una frase.");
+function fraseEnMinuscula {
+    let frase = prompt("Ingresa una frase.")
 
-enMinusculas = toLowerCase(frase)
-
-alert("Tu frase en minúsculas es: " + enMinusculas)
-
-
-
+    alert("Tu frase en minúsculas es: " + toLowerCase(frase))
+}
