@@ -3,8 +3,12 @@ Crea una función llamada mostrarMensaje que tome un parámetro nombre. Dentro d
 (onclick)
 */
 
-function mostrarMensaje() {
-    let nombre = prompt("¿Cómo te llamas?")
 
+function mostrarMensaje(nombre) {
     alert("¡Hola, " + nombre + "! Espero que estés disfrutando de JavaScript.")
+}
+
+function obtenerNombre() {
+    let nombreUsuario = prompt("¿Cómo te llamas?")
+    mostrarMensaje(nombreUsuario)    
 }
