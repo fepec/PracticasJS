@@ -1,1 +1,3 @@
-alert("¡Hola! ¡Bienvenido/a a JavaScript!")
+function bienvenida() {
+    alert("¡Hola! ¡Bienvenido/a a JavaScript!")
+}
